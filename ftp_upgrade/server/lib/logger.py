@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# author:yavan
+# author:Eeyhan
 
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# author:yavan
 
-import logging,sys,os
+import logging, sys, os
+
 base_path = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(base_path)
 
 from conf import settings
+
 
 def mylog(log_type):
     log_file = settings.log_file[log_type]
@@ -24,5 +23,3 @@ def mylog(log_type):
 
     logger.addHandler(filehand)
     return logger
-
-

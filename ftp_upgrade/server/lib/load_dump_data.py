@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# author:yavan
+# author:Eeyhan
 
-import os,sys,json
+import os, sys, json
 
 from conf import settings
+
 
 def load_data():
     '''
@@ -12,9 +13,10 @@ def load_data():
     :return:
     '''
 
-    with open(os.path.join(settings.data_path,'.userdata')) as f:
+    with open(os.path.join(settings.data_path, '.userdata')) as f:
         userdata = json.load(f)
     return userdata
+
 
 def dump_data(userdata):
     # username = list(userdata.keys())[0]
