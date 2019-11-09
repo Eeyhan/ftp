@@ -1,0 +1,4 @@
+2018-08-31 19:15:31,324 -- INFO -- servers.py -- client  ('127.0.0.1', 1578) connect and user zaki logined 
+2018-08-31 19:15:43,946 -- INFO -- servers.py -- client  ('127.0.0.1', 1579) connect and user jack logined 
+2018-08-31 19:17:13,059 -- INFO -- servers.py -- client  ('127.0.0.1', 1580) connect and user jack logined 
+2018-08-31 19:17:28,697 -- INFO -- servers.py -- client  ('127.0.0.1', 1581) connect and user zaki logined 
