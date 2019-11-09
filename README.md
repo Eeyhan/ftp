@@ -31,38 +31,39 @@
 ## 文件结构：
 
 .
-├─.idea
-│  └─inspectionProfiles
-├─client
-│  └─__pycache__
-│  └─boot_client.py  # ftp客户端执行文件
-└─server
-    ├─bin
-	│ └─boot_server.py # ftp服务端执行文件
-    ├─conf
-    │  └─__pycache__
-    │  └─settings.py	# 配置文件
-    ├─db
-	│  └─.userdata 	# 用户数据库
-    ├─FTP_workstation # 工作区
-    │  ├─jack
-    │  │  └─test
-    │  │      └─one
-    │  ├─nero
-    │  └─zaki
-    ├─lib
-    │  └─client	# 客户端
-	│  └─load_dump_data	# 数据中转文件
-    │  └─logger.py	# 日志文件
-    │  └─servers.py	# 服务端主程序文件
-    ├─log
-    └─client.log	# 客户端登录日志
-    └─server.log	# 服务端登录日志
++ ├─.idea
++ │  └─inspectionProfiles
++ ├─client
++ │  └─__pycache__
++ │  └─boot_client.py  # ftp客户端执行文件
++ └─server
++     ├─bin
++ 	  │ └─boot_server.py # ftp服务端执行文件
++     ├─conf
++     │  └─__pycache__
++     │  └─settings.py	# 配置文件
++     ├─db
++  	  │  └─.userdata 	# 用户数据库
++     ├─FTP_workstation # 工作区
++     │  ├─jack
++     │  │  └─test
++     │  │      └─one
++     │  ├─nero
++     │  └─zaki
++     ├─lib
++     │  └─client	# 客户端
++  	  │  └─load_dump_data	# 数据中转文件
++     │  └─logger.py	# 日志文件
++     │  └─servers.py	# 服务端主程序文件
++     ├─log
++     └─client.log	# 客户端登录日志
++     └─server.log	# 服务端登录日志
 
 ## 启动：
 
 * 先启动boot_server.py文件
 * 再启动boot_client.py文件
+
 
 
 
